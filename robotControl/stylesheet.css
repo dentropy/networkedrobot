@@ -1,0 +1,50 @@
+#FORWARD {
+	height: 100px;
+	width: 200px;
+	border-radius: 5px;
+	border: 2px solid black;
+	background-color: RED;
+	color:GREEN;	
+}
+
+#LEFT {
+	height: 100px;
+	width: 100px;
+	border-radius: 5px;
+	border: 2px solid black;
+	background-color: GREEN;
+	color:RED;
+	top :100px;
+}
+
+#RIGHT {
+	position:absolute;
+	height: 100px;
+	width: 100px;
+	border-radius: 5px;
+	border: 2px solid black;
+	background-color: GREEN;
+	color:RED;
+	top :100px;
+	left: 100px;
+
+}
+
+#BACKWARD {
+	position:absolute;
+	height: 100px;
+	width: 200px;
+	border-radius: 5px;
+	border: 2px solid black;
+	background-color: RED;
+	color:GREEN;
+	top: 200px;
+
+}
+
+#BUTTON {
+	position:absolute;
+	top: 400;
+	right: 400;
+
+}

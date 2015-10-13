@@ -1,0 +1,29 @@
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript">
+function RIGHT() {
+    $.get("RIGHT.php");
+    return false;
+}
+function LEFT() {
+    $.get("LEFT.php");
+    return false;
+}
+function FORWARD() {
+    $.get("FORWARD.php");
+    return false;
+}
+function BACKWARD() {
+    $.get("BACKWARD.php");
+    return false;
+}
+function STOP() {
+    $.get("RELEASE.php");
+    return false;
+}
+</script>
+
+<a href="#" onclick="RIGHT();">RIGHT</a>
+<a href="#" onclick="FORWARD();">FORWARD</a>
+<a href="#" onclick="BACKWARD();">BACKWARD</a>
+<a href="#" onclick="LEFT();">LEFT</a>	
+<a href="#" onclick="STOP();">STOP</a>	
